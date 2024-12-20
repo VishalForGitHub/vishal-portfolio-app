@@ -1,0 +1,10 @@
+.experience{
+    margin: 10% 0 5% 0;
+    /* padding-bottom: 5%; */
+}
+
+@media(max-width:700px){
+    .experience{
+       margin: 15% 0 5% 0;
+    }
+}

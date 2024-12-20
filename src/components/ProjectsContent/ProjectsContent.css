@@ -1,0 +1,60 @@
+.pro-cont-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.pro-cont-card{
+    border: 1px solid #555555;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+.pro-cont-card  img{
+    width: 200px;
+    border-radius: 25px;
+    margin-left: 7%;
+}
+
+.pro-cont-card h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 27px;
+    margin: 5px 0 5px 0;
+}
+
+.pro-cont-btns a{
+    
+        padding: 5px 2px 5px 5px;
+        border: 1.5px solid black;
+        width: 90px;
+        border-radius: 25px;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        margin: 8px;
+        font-size: 15px;
+    }
+
+  .pro-cont-btns a:hover{
+    background-color: black;
+    color: white;
+  }  
+
+
+/* .pro-cont-btns div a p{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}   */
+    
+.pro-cont-btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pro-cont-card button:hover{
+    color: white;
+    background-color: black;
+}

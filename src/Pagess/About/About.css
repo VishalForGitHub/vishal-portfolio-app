@@ -1,0 +1,9 @@
+.about{
+    margin-top: 8%;
+}
+
+@media(max-width:600px){
+    .about{
+        margin-top: 30%;
+    }
+}

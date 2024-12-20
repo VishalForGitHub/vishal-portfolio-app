@@ -1,0 +1,89 @@
+.contact-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-link{
+    padding: 20px;
+    border: 1px solid #555;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.contact-link a{
+    font-weight:400;
+    font-size: 19px;
+    margin-left: 7px;
+}
+
+#email{
+    width: 35px;
+}
+#linkedin{
+   width:30px;
+   margin-left: 30px;
+}
+
+.fileds ul{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 60px;
+}
+
+.fileds ul li{
+    font-size: 23px;
+    font-weight: 400;
+    color: black;
+    margin-right:20px;
+    cursor: pointer;
+}
+
+.fileds ul li:hover{
+    color: #555;
+}
+
+footer p{
+    margin-top: 60px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+@media(max-width:700px) {
+    #linkedin{
+        margin-left:10px;
+    }
+
+    .contact-link a{
+        font-size: 12px;
+    }
+
+    #email{
+        width: 30px;
+    }
+
+    #linkedin{
+        width: 25px;
+    }
+
+    .fileds ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+     }
+
+     .fileds ul li{
+        margin-bottom:20px;
+        font-size: 17px;
+    }
+}

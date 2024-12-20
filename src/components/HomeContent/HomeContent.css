@@ -1,0 +1,173 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+}
+
+.nav-bar h2{
+    margin-left: 10%;
+    font-weight: 600;
+    letter-spacing: 0.08cm;
+    /* position:relative; */
+}
+.side-nav{
+    width:50%;
+}
+.side-nav ul{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.side-nav ul li{
+    padding: 1%;
+    font-weight: 400;
+    font-size:x-large;
+}
+
+.side-nav ul li:hover{
+    color: rgb(110, 110, 110);
+}
+
+.hamburger-nav{
+    display: none;
+}
+
+
+.floating-menu{
+    margin-left: 70%;
+    position:absolute;
+    /* z-index: 100; */
+    /* background-color: rgb(255, 255, 255); */
+    display: none;
+}
+
+.floating-menu ul li{
+    padding: 1%;
+    font-weight: 500;
+    font-size:large;
+    padding-bottom: 5px;
+    /* position: fixed; */
+}
+
+.person-details{
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:baseline;
+    align-items: center;
+    margin-top:5em;
+    margin-left: 25%;
+}
+
+.person-details img{
+    width: 350px;
+    /* height: 400px; */
+}
+
+.user-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.user-content p{
+    color: rgb(68, 66, 66);
+    font-weight: 600;
+}
+
+.user-content h2{
+    font-weight: 500;
+    font-size: xx-large;
+    margin: 5px 0 5px 0;
+}
+
+.user-content h3{
+    font-weight: 500;
+    color: rgb(68, 66, 66);
+    font-size: x-large;
+}
+
+.btns{
+    margin-top: 10px;
+}
+
+.btn,.btns a{
+    padding: 10px 15px 10px 15px;
+    border: 1.5px solid black;
+    border-radius: 25px;
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#download-cv{
+    margin: 20px 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+#download-cv:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+#contact-info{
+    background-color: rgb(61, 59, 59);
+    color: white;
+}
+
+#contact-info:hover{
+    background-color: black;
+}
+
+.social-img{
+    margin-top: 20px;
+}
+.user-content span img{
+    width: 30px;
+    margin-right: 15px;
+}
+
+@media(max-width:600px){
+
+    .home-content{
+        margin-top:15%;
+    }
+    .side-nav{
+        display: none;
+    }
+
+    .hamburger-nav{
+        display:block;
+    }
+
+    .nav-bar h2{
+        margin-left: 10%;
+        font-weight: 500;
+        /* align-self: center; */
+    }
+
+    .hamburger-nav img{
+        height: 50px;
+        align-self: center;
+        /* font-weight: 100; */
+    }
+
+
+   /* for user-profile and content */
+
+   .person-details{
+      justify-content: space-evenly;
+      margin-left: 0;
+      /* align-items: center; */
+   }
+
+   .person-details img{
+    width: 300px;
+    /* height: 400px; */
+}
+}
